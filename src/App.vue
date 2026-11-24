@@ -21,6 +21,7 @@
     onUnmounted(() => {
       mediaQuery?.removeEventListener('change', checkOrientation);
     });
+
 </script>
 
 <template>
