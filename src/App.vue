@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import Page from "./components/page/Page.vue";
+    import PageAr from "./components/page-ar/PageAr.vue";
     import { ref, onMounted, onUnmounted } from 'vue';
 
     const isLandscape = ref(false);
@@ -39,7 +39,7 @@
       </div>
     </div>
   </div>
-    <Page/> 
+    <PageAr/> 
 </template>
 
 <style scoped>
